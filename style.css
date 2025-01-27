@@ -19,7 +19,7 @@ h1{
   
   @media screen and (min-width: 600px) {
     body {
-      background-color: ;
+      background-color: rgb(214, 228, 26);
       font-style: italic;
     }
   }
