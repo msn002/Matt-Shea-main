@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(133, 63, 223);
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    font-style:italic
+}
