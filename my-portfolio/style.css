@@ -1,14 +1,73 @@
+/* Reset default browser styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Apply the new font */
     text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style the navbar */
+nav {
+    background-color: #d3d3d3;  /* Light grey background for the navbar */
+    padding: 10px 0;            /* Adds spacing around the nav items */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;    /* Centers nav items */
+    gap: 30px;                  /* Adds spacing between links */
+}
+
+/* Ensure consistency on the nav items */
+nav ul li {
+    display: inline;
 }
 
 nav a {
-    margin: 10px;
     text-decoration: none;
-    color: blue;
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #990d0d;               /* Slightly darker color on hover */
 }
+
+/* Center the main content */
+main {
+    margin-top: 50px;
+}
+
+/* Style the profile picture */
+.profile-pic {
+    width: 200px; /* Adjust size */
+    height: auto;
+    border-radius: 50%; /* Makes it a circle */
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+/* Add spacing for section headers */
+h1, h2 {
+    margin-bottom: 20px; /* Adds space below headers */
+}
+
+/* Add spacing for section headers */
+h1 {
+    margin-bottom: 20px; /* Adds space below the header */
+    font-size: 38px;     /* Adjust the font size to make it bigger */
+    font-weight: bold;   /* Ensures the header is bold */
+}
+
