@@ -71,3 +71,32 @@ h1 {
     font-weight: bold;   /* Ensures the header is bold */
 }
 
+/* Contact Section Styling */
+.contact-info {
+    background-color: #990d0d; /* Red background */
+    color: white;              /* White text color */
+    padding: 20px;             /* Adds padding around the content */
+    margin-top: 50px;          /* Adds spacing from the rest of the content */
+    text-align: center;        /* Centers the text */
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;           /* Adjusts the font size for the header */
+    margin-bottom: 15px;       /* Adds spacing below the header */
+  }
+  
+  .contact-info p {
+    font-size: 18px;           /* Adjusts the font size for the contact info */
+    margin: 10px 0;            /* Adds spacing between each contact method */
+  }
+  
+  .contact-info a {
+    color: white;              /* Makes the links white */
+    text-decoration: none;     /* Removes underline */
+    font-weight: bold;         /* Makes links bold */
+  }
+  
+  .contact-info a:hover {
+    color:#7c7979
+  }
+  
