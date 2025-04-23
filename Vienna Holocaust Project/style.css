@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Base resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #002244;
+  }
+  
+  .byline {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .main-image {
+    max-height: 450px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Sections */
+  main {
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #003366;
+    border-left: 5px solid #003366;
+    padding-left: 0.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+  }
+  
+  .caption {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  
+  blockquote {
+    font-style: italic;
+    background: #f1f1f1;
+    border-left: 4px solid #999;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    color: #444;
+  }
+  
+  .testimony {
+    background: #fff9f5;
+    border-left: 4px solid #c65f1d;
+    padding: 1rem;
+    margin: 2rem 0;
+    font-style: normal;
+    font-size: 1.02rem;
+  }
+  
+  .testimony .source {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #777;
+    font-style: italic;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #eee;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #444;
+    border-top: 1px solid #ccc;
+    margin-top: 3rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.6rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
